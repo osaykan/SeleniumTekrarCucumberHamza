@@ -1,0 +1,270 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-24T11:29:37.542Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC06_kullanici amazonda urun aramasi yapar",
+        "description": "",
+        "id": "amazon-urun-arama;tc06-kullanici-amazonda-urun-aramasi-yapar;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23267000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://amazon.com\" sayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://amazon.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.ExplicitStepDefinitions.kullanici_sayfaya_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8665000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"headphones\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"headphones\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1465000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonucsayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonucsayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonurunarama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-24T11:30:12.791Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC06_kullanici amazonda urun aramasi yapar",
+        "description": "",
+        "id": "amazon-urun-arama;tc06-kullanici-amazonda-urun-aramasi-yapar;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1157000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3092000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://amazon.com\" sayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://amazon.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.ExplicitStepDefinitions.kullanici_sayfaya_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5676000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"tv\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tv\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonucsayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonucsayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonurunarama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-24T11:30:23.339Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC06_kullanici amazonda urun aramasi yapar",
+        "description": "",
+        "id": "amazon-urun-arama;tc06-kullanici-amazonda-urun-aramasi-yapar;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1007000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3668000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://amazon.com\" sayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://amazon.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.ExplicitStepDefinitions.kullanici_sayfaya_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9040000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"sponge\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sponge\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4161000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonucsayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonucsayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonurunarama"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Urun Arama",
+    "description": "",
+    "id": "amazon-urun-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonarama.feature",
+    "tags": []
+  }
+]
